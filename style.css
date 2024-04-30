@@ -1,15 +1,22 @@
 body {
     margin:0;
     padding:1%;
-     background-image: url("download\ \(1\).png");
-     background-position: -40rem;
+     background-image: url("trex.png");
+     background-position: 1rem;
      background-size:cover;
      background-repeat: no-repeat;
      background-blend-mode: overlay;
      background-color: #dfcece; 
      z-index:-10px;
   }
+
+  .img-fluid {
+    border: solid black;
+  }
   
+  .img-thumbnail {
+    border: solid black;
+  }
   
   .h1 {
     text-align: center;
@@ -38,13 +45,13 @@ body {
   }
   
   .bgimg-2 {
-    background-image: url("Iverson-Wayne-Shorter.webp");
+    background-image: url("books.jpg");
     min-height: 100%;
     z-index: -10px;
   }
   
   .bgimg-3 {
-    background-image: url("Wayne_Shorter_slider.jpg");
+    background-image:url("dino.webp");
     min-height: 750px;
     
   }
